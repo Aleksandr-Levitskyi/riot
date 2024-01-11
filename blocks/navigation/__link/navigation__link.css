@@ -1,0 +1,11 @@
+.navigation__link {
+    text-decoration: none;
+    color: #0d1d25;
+
+    transition: color 0.3s ease-in;
+}
+
+.navigation__link:hover {
+    color: #4c6875;
+
+}

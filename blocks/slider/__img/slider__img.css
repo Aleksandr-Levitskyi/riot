@@ -1,0 +1,7 @@
+.slider__img {
+    position: absolute;
+    width: 430px;
+
+    bottom: 0;
+    left: 50px;
+}

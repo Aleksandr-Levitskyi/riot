@@ -1,11 +1,39 @@
+/* normalize */
+@import url(../vendor/normalize.css);
+
+/* fonts */
+@import url(../vendor/fonts.css);
+
+/* page styles */
+@import url(../blocks/page/page.css);
+
+/* header styles */
 @import url(../blocks/header/header.css);
 
-.page {
-    max-width: 1440px;
-    min-width: 320px;
+/* button styles */
+@import url(../blocks/button/button.css);
+@import url(../blocks/button/_theme/_dark/button_theme_dark.css);
 
-    margin: 0 auto;
-    padding: 0;
+/* navigation styles */
+@import url(../blocks/navigation/navigation.css);
+@import url(../blocks/navigation/__list/navigation__list.css);
+@import url(../blocks/navigation/__item/navigation__item.css);
+@import url(../blocks/navigation/__link/navigation__link.css);
 
-    border: solid 1px red;
-}
+/* about-section styles */
+@import url(../blocks/about/about.css);
+@import url(../blocks/about/__title/about__title.css);
+@import url(../blocks/about/__subtitle/about__subtitle.css);
+
+
+/* wrapper styles */
+@import url(../blocks/wrapper/wrapper.css);
+@import url(../blocks/wrapper/_block/_authors/wrapper_block_authors.css);
+
+/* authors styles */
+@import url(../blocks/authors/authors.css);
+@import url(../blocks/authors/__title/authors__title.css);
+
+/* slider styles */
+@import url(../blocks/slider/slider.css);
+@import url(../blocks/slider/__img/slider__img.css);

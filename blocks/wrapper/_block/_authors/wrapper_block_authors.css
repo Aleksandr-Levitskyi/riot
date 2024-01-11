@@ -1,0 +1,6 @@
+.wrapper_block_authors {
+    display: flex;
+    justify-content: flex-end;
+
+    background: linear-gradient(-90deg, rgba(0, 0, 0, 1) 39%, rgba(174, 0, 193, 0.165703781512605) 100%);
+}

@@ -11,24 +11,64 @@
 
 <body class="page">
     <header class="header">
-        <nav class="header__nav">
-            <ul class="header__nav-list header__nav-list_desktop">
-                <li><a href="#" class="header__nav-link">О нас</a></li>
-                <li><a href="#" class="header__nav-link">Работы учеников</a></li>
-                <li><a href="#" class="header__nav-link">FAQ</a></li>
+        <img src="#" alt="Риот Тату" class="logo">
+        <nav class="navigation">
+            <ul class="navigation__list">
+                <li class="navigation__item"><a href="#" class="navigation__link">О нас</a></li>
+                <li class="navigation__item"><a href="#" class="navigation__link">Авторы курса</a></li>
+                <li class="navigation__item"><a href="#" class="navigation__link">Отзывы</a></li>
             </ul>
         </nav>
-        <img class="header__logo" src="#" alt="Riot логотип">
-        <button class="button button_desktop" type="button">Оставить заявку</button>
-        <button class="button button__mobile-menu" type="button">+</button>
+        <button type="button" class="button">Оставить заявку</button>
     </header>
     <!-- /.header -->
-    <main class="content"></main>
+    <main class="content">
+        <section class="about">
+            <div class="wrapper">
+                <h1 class="about__title">Курс по художественной татуировке</h1>
+                <p class="about__subtitle">для начинающих и опытных мастеров</p>
+            </div>
+        </section>
+        <section class="learning-plan">
+            <h2 class="learning-plan__title">Чему ты научишься?</h2>
+            <ul class="learning-plan__list">
+                <li class="learning-plan__item">Работать с кожей</li>
+                <li class="learning-plan__item">Плотно красить</li>
+                <li class="learning-plan__item">Рисовать свои эскизы</li>
+                <li class="learning-plan__item">Работать в стерильности</li>
+            </ul>
+        </section>
+        <section class="authors">
+            <h2 class="authors__title">Авторы курса</h2>
+            <article class="slider">
+                <div class="wrapper wrapper_block_authors">
+                    <img src="./src/images/enot.png" alt="Енот" class="slider__img">
+                    <div class="slider__info-container">
+                        <div class="slider__desc-container">
+                            <p class="slider__desc"></p>
+                            <button type="button" class="button">Записаться</button>
+                        </div>
+                        <div class="slider__list-container">
+                            <ul class="slider__list">
+                                <li class="slider__item">5 лет<span class="slider__item-subtitle">занимаюсь
+                                        татуировкой</span></li>
+                                <li class="slider__item">5 лет<span class="slider__item-subtitle">занимаюсь
+                                        татуировкой</span></li>
+                                <li class="slider__item">5 лет<span class="slider__item-subtitle">занимаюсь
+                                        татуировкой</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+        </section>
+    </main>
     <!-- /.main -->
     <footer class="footer"></footer>
     <!-- /.footer -->
 
-    <div class="popup popup__nav popup__hidden">
+    <!-- <div class="popup popup__nav popup__hidden">
         <nav class="header__nav header__nav_mobile">
             <ul class="header__nav-list header__nav-list_mobile">
                 <li><a href="#" class="header__nav-link header__nav-link_mobile">О нас</a></li>
@@ -37,9 +77,9 @@
             </ul>
         </nav>
         <button class="button button_mobile" type="button">Оставить заявку</button>
-    </div>
+    </div> -->
 
-    <script type="module" src="./scripts/index.js"></script>
+    <!-- <script type="module" src="./scripts/index.js"></script> -->
 </body>
 
 </html>
