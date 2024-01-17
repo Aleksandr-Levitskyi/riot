@@ -1,12 +1,6 @@
-const mobileMenuBtn = document.querySelector('.button__mobile-menu');
-const popupMobileMenu = document.querySelector('.popup__nav');
+import { createListItem } from "./renderList";
+import  { LEARN_PLANS } from "./constants";
 
+const listContainer = document.querySelector('.learning__items');
 
-function openModileMenu(popup) {
-    popup.classList.toggle('popup__hidden');
-}
-
-mobileMenuBtn.addEventListener('click', () => {
-    console.log('click');
-    openModileMenu(popupMobileMenu);
-})
+createListItem(LEARN_PLANS, listContainer);

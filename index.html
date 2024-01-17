@@ -10,76 +10,200 @@
 </head>
 
 <body class="page">
-    <header class="header">
-        <img src="#" alt="Риот Тату" class="logo">
-        <nav class="navigation">
-            <ul class="navigation__list">
-                <li class="navigation__item"><a href="#" class="navigation__link">О нас</a></li>
-                <li class="navigation__item"><a href="#" class="navigation__link">Авторы курса</a></li>
-                <li class="navigation__item"><a href="#" class="navigation__link">Отзывы</a></li>
+    <!-- <header class="header">
+        <img src="./images/logo_riot.png" alt="Риот Тату" class="logo">
+        <nav class="menu">
+            <ul class="menu__items">
+                <li class="menu__item"><a href="#" class="menu__link">О нас</a></li>
+                <li class="menu__item"><a href="#" class="menu__link">Авторы курса</a></li>
+                <li class="menu__item"><a href="#" class="menu__link">Отзывы</a></li>
             </ul>
         </nav>
         <button type="button" class="button">Оставить заявку</button>
-    </header>
-    <!-- /.header -->
+    </header> -->
+
     <main class="content">
-        <section class="about">
-            <div class="wrapper">
-                <h1 class="about__title">Курс по художественной татуировке</h1>
-                <p class="about__subtitle">для начинающих и опытных мастеров</p>
-            </div>
+        <section class="course-section">
+            <h1 class="course-section__title">Курс по художественной татуировке</h1>
+            <p class="course-section__subtitle">для начинающих&#160;и опытных&#160;мастеров</p>
+            <button class="button" type="button">Подробнее</button>
         </section>
-        <section class="learning-plan">
-            <h2 class="learning-plan__title">Чему ты научишься?</h2>
-            <ul class="learning-plan__list">
-                <li class="learning-plan__item">Работать с кожей</li>
-                <li class="learning-plan__item">Плотно красить</li>
-                <li class="learning-plan__item">Рисовать свои эскизы</li>
-                <li class="learning-plan__item">Работать в стерильности</li>
-            </ul>
+        <section class="skills-section">
+            <h2 class="skills-section__title">Чему ты научишься?</h2>
+            <ul class="skills-section__list"></ul>
         </section>
+        <!--         
+            <section class="target-audience-section">
+                <div class="target-audience-section__info">
+                    <h2 class="target-audience-section__title">Кому подойдет курс?</h2>
+                    <p class="target-audience-section__text">Курс по татуировке может подойти тем,
+                        кто хочет развить свой художественный талант в сфере татуирования.
+                        Помимо этого, он будет полезен людям, стремящимся сделать
+                        карьеру в индустрии татуировок и ищущим
+                        обучение по безопасности и гигиене.</p>
+                </div>
+                <div class="target-audience-section__cards">
+                    <ul class="list">
+                        <li class="list__item list__item_cover_students list__item_size_large">
+                            <div class="wrapper wrapper_type_overlay wrapper_color_black">Студентам
+                                художественных вузов</div>
+                        </li>
+                        <li class="list__item list__item_cover_newbie">
+                            <div class="wrapper wrapper_type_overlay wrapper_color_black">Новичкам</div>
+                        </li>
+                        <li class="list__item list__item_cover_other">
+                            <div class="wrapper wrapper_type_overlay wrapper_color_black">Тем, кто хочет поменять профессию
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
         <section class="authors">
-            <h2 class="authors__title">Авторы курса</h2>
-            <article class="slider">
-                <div class="wrapper wrapper_block_authors">
-                    <img src="./src/images/enot.png" alt="Енот" class="slider__img">
-                    <div class="slider__info-container">
-                        <div class="slider__desc-container">
-                            <p class="slider__desc"></p>
-                            <button type="button" class="button">Записаться</button>
-                        </div>
-                        <div class="slider__list-container">
-                            <ul class="slider__list">
-                                <li class="slider__item">5 лет<span class="slider__item-subtitle">занимаюсь
-                                        татуировкой</span></li>
-                                <li class="slider__item">5 лет<span class="slider__item-subtitle">занимаюсь
-                                        татуировкой</span></li>
-                                <li class="slider__item">5 лет<span class="slider__item-subtitle">занимаюсь
-                                        татуировкой</span></li>
+            <h2 class="authors__title subtitle">Авторы курса</h2>
+            <div class="slider">
+                <article class="card">
+                    <div class="wrapper wrapper_type_overlay wrapper_color_magenta">
+                        <img class="card__img" src="./src/images/enot.png" alt="Саша Енот">
+                        <div class="card__info">
+                            <div class="card__desc">
+                                <h3 class="card__title subtitle">Саша Енот</h3>
+                                <p class="card__text paragraph">Шучу шутки, колю татушки</p>
+                            </div>
+                            <ul class="card__list">
+                                <li class="card__list-item">
+                                    <h3 class="card__list-item-label label">5 лет</h3>
+                                    <p class="card__list-item-paragraph paragraph">Татуирую</p>
+                                </li>
+                                <li class="card__list-item">
+                                    <h3 class="card__list-item-label label">10 лет</h3>
+                                    <p class="card__list-item-paragraph paragraph">Рисую</p>
+                                </li>
+                                <li class="card__list-item">
+                                    <h3 class="card__list-item-label label">30 учеников</h3>
+                                    <p class="card__list-item-paragraph paragraph">Научил колоть</p>
+                                </li>
                             </ul>
                         </div>
                     </div>
-                </div>
-            </article>
-
+                </article>
+            </div>
         </section>
+        <section class="feedback">
+            <h2 class="feedback__title subtitle">Отзывы учеников</h2>
+            <div class="slider">
+                <ul class="feedback__list">
+                    <li class="feedback__item">
+                        <div class="feedback__card">
+                            <img src="" alt="" class="feedback__card-avatar">
+                            <h3 class="feedback__card-name label">someName</h3>
+                            <p class="feedback__card-text paragraph">someText</p>
+                        </div>
+                    </li>
+                    <li class="feedback__item">
+                        <div class="feedback__card">
+                            <img src="" alt="" class="feedback__card-avatar">
+                            <h3 class="feedback__card-name label">someName</h3>
+                            <p class="feedback__card-text paragraph">someText</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="faq">
+            <h2 class="faq__title">Часто задаваемые вопросы</h2>
+            <ul class="faq__list">
+                <li class="faq__item">
+                    <input type="checkbox" id="faq-item-1" hidden />
+                    <label for="faq-item-1" class="faq__label">Вопрос 1</label>
+                    <p class="faq__content">Ответ на вопрос 1.</p>
+                </li>
+                <li class="faq__item">
+                    <input type="checkbox" id="faq-item-1" hidden />
+                    <label for="faq-item-1" class="faq__label">Вопрос 1</label>
+                    <p class="faq__content">Ответ на вопрос 1.</p>
+                </li>
+                <li class="faq__item">
+                    <input type="checkbox" id="faq-item-1" hidden />
+                    <label for="faq-item-1" class="faq__label">Вопрос 1</label>
+                    <p class="faq__content">Ответ на вопрос 1.</p>
+                </li>
+            </ul>
+        </section>
+        <section class="application-section">
+            <h2 class="application-section__title">Оставьте заявку</h2>
+            <div class="application-section__form-container">
+                <form class="application-form" method="get" id="contact-form" name="contactForm" novalidate>
+
+                    <label class="application-form__label" for="name">Имя:</label>
+                    <input class="application-form__input" type="text" id="name" name="name" required>
+
+                    <label class="application-form__label" for="phone">Телефон:</label>
+                    <input class="application-form__input" type="tel" id="phone" name="phone" required
+                        pattern="[0-9]{10}">
+
+                    <label class="application-form__label" for="social">Ссылка на Telegram или VK:</label>
+                    <input class="application-form__input" type="url" id="social" name="social">
+
+                    <button class="application-form__submit" type="submit">Отправить</button>
+                </form>
+            </div>
+        </section>
+ -->
+
     </main>
     <!-- /.main -->
-    <footer class="footer"></footer>
+    <!-- 
+    <footer class="footer">
+        <div class="footer__logo-container">
+            <img src="path/to/logo.png" alt="Логотип компании" class="footer__logo">
+        </div>
+        <ul class="footer__social-links">
+            <li class="footer__social-item"><a href="https://facebook.com" class="footer__social-link">Facebook</a></li>
+            <li class="footer__social-item"><a href="https://twitter.com" class="footer__social-link">Twitter</a></li>
+            <li class="footer__social-item"><a href="https://instagram.com" class="footer__social-link">Instagram</a>
+            </li>
+        </ul>
+        <div class="footer__copyright">
+            &copy; 2024 Ваше Имя или Название Компании
+        </div>
+    </footer> -->
+
     <!-- /.footer -->
 
-    <!-- <div class="popup popup__nav popup__hidden">
-        <nav class="header__nav header__nav_mobile">
-            <ul class="header__nav-list header__nav-list_mobile">
-                <li><a href="#" class="header__nav-link header__nav-link_mobile">О нас</a></li>
-                <li><a href="#" class="header__nav-link header__nav-link_mobile">Работы учеников</a></li>
-                <li><a href="#" class="header__nav-link header__nav-link_mobile">FAQ</a></li>
-            </ul>
-        </nav>
-        <button class="button button_mobile" type="button">Оставить заявку</button>
-    </div> -->
+    <template id="slider-card-template">
+        <article class="slider">
+            <div class="wrapper wrapper_block_authors">
+                <img src="./src/images/enot.png" alt="Енот" class="slider__img">
+                <div class="slider__info-container">
+                    <div class="slider__desc-container">
+                        <p class="slider__name">Саша Енот</p>
+                        <p class="slider__desc">Научу тебя мыслить в 3D</p>
+                        <button type="button" class="button">Записаться</button>
+                    </div>
+                    <div class="slider__list-container">
+                        <ul class="items">
+                            <li class="items__item"><span class="items__item-heading">5 лет</span>занимаюсь
+                                татуировкой</li>
+                            <li class="items__item"><span class="items__item-heading">5 лет</span>занимаюсь
+                                татуировкой</li>
+                            <li class="items__item"><span class="items__item-heading">5 лет</span>занимаюсь
+                                татуировкой</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </template>
+    <template id="list-item-template">
+        <li class="skills-section__item">
+            <div class="list-card">
+                <h3 class="list-card__label">someTitle</h3>
+                <p class="list-card__text">someText</p>
+            </div>
+        </li>
+    </template>
 
-    <!-- <script type="module" src="./scripts/index.js"></script> -->
+    <script type="module" src="./scripts/renderList.js"></script>
 </body>
 
 </html>

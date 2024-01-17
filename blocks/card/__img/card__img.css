@@ -1,0 +1,7 @@
+.card__img {
+    height: 450px;
+
+    position: absolute;
+    bottom: 0;
+    left: 70px;
+}

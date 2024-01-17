@@ -1,12 +1,1 @@
-.slider {
-    position: relative;
-
-    width: 100%;
-    height: 450px;
-
-    border-radius: 32px;
-
-    background-image: url(../../src/images/background__author.jpg);
-    background-position: left;
-    background-size: cover;
-}
+.slider {}

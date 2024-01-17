@@ -1,0 +1,21 @@
+.feedback__card {
+    position: relative;
+    width: 650px;
+    height: 100%;
+    padding: 22px 25px 30px;
+    box-shadow: 0 4px 24px rgba(199, 210, 237, .57);
+    background: #fefefe;
+    border-radius: 8px;
+}
+
+.feedback__card::after {
+    content: "";
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    display: block;
+    width: 37px;
+    height: 30px;
+    background: url(../../../images/ticks.svg) no-repeat 50%;
+    background-size: contain;
+}

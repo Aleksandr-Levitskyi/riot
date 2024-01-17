@@ -7,33 +7,86 @@
 /* page styles */
 @import url(../blocks/page/page.css);
 
+@import url(../blocks/subtitle/subtitle.css);
+@import url(../blocks/label/label.css);
+@import url(../blocks/title/title.css);
+@import url(../blocks/paragraph/paragraph.css);
+
 /* header styles */
 @import url(../blocks/header/header.css);
 
 /* button styles */
 @import url(../blocks/button/button.css);
-@import url(../blocks/button/_theme/_dark/button_theme_dark.css);
+@import url(../blocks/button/_section/_course/button_section_course.css);
 
-/* navigation styles */
-@import url(../blocks/navigation/navigation.css);
-@import url(../blocks/navigation/__list/navigation__list.css);
-@import url(../blocks/navigation/__item/navigation__item.css);
-@import url(../blocks/navigation/__link/navigation__link.css);
+/* menu styles */
+@import url(../blocks/menu/menu.css);
+@import url(../blocks/menu/__items/menu__items.css);
+@import url(../blocks/menu/__item/menu__item.css);
+@import url(../blocks/menu/__link/menu__link.css);
 
-/* about-section styles */
-@import url(../blocks/about/about.css);
-@import url(../blocks/about/__title/about__title.css);
-@import url(../blocks/about/__subtitle/about__subtitle.css);
-
+/* course-section*/
+@import url(../blocks/course-section/course-section.css);
+@import url(../blocks/course-section/__title/course-section__title.css);
+@import url(../blocks/course-section/__subtitle/course-section__subtitle.css);
 
 /* wrapper styles */
 @import url(../blocks/wrapper/wrapper.css);
-@import url(../blocks/wrapper/_block/_authors/wrapper_block_authors.css);
+@import url(../blocks/wrapper/_type/_overlay/wrapper_type_overlay.css);
+@import url(../blocks/wrapper/_color/_magenta/wrapper_color_magenta.css);
+@import url(../blocks/wrapper/_color/_white/wrapper_color_white.css);
+@import url(../blocks/wrapper/_color/_black/wrapper_color_black.css);
 
-/* authors styles */
+/* skills-section */
+@import url(../blocks/skills-section/skills-section.css);
+@import url(../blocks/skills-section/__title/skills-section__title.css);
+@import url(../blocks/skills-section/__list/skills-section__list.css);
+@import url(../blocks/skills-section/__item/skills-section__item.css);
+
+@import url(../blocks/list-card/__label/list-card__label.css);
+
+@import url(../blocks/list/list.css);
+@import url(../blocks/list/__item/list__item.css);
+@import url(../blocks/list/__item/_size/_large/list__item_size_large.css);
+@import url(../blocks/list/__item/_cover/_students/list__item_cover_students.css);
+@import url(../blocks/list/__item/_cover/_newbie/list__item_cover_newbie.css);
+@import url(../blocks/list/__item/_cover/_other/list__item_cover_other.css);
+
+/* target-audience-section */
+@import url(../blocks/target-audience-section/target-audience-section.css);
+@import url(../blocks/target-audience-section/__cards/target-audience-section__cards.css);
+@import url(../blocks/target-audience-section/__info/target-audience-section__info.css);
+@import url(../blocks/target-audience-section/__text/target-audience-section__text.css);
+@import url(../blocks/target-audience-section/__title/target-audience-section__title.css);
+
+/* authors */
 @import url(../blocks/authors/authors.css);
 @import url(../blocks/authors/__title/authors__title.css);
 
-/* slider styles */
-@import url(../blocks/slider/slider.css);
-@import url(../blocks/slider/__img/slider__img.css);
+/* card */
+@import url(../blocks/card/card.css);
+@import url(../blocks/card/__desc/card__desc.css);
+@import url(../blocks/card/__img/card__img.css);
+@import url(../blocks/card/__info/card__info.css);
+@import url(../blocks/card/__list-item-label/card__list-item-label.css);
+@import url(../blocks/card/__list-item-paragraph/card__list-item-paragraph.css);
+@import url(../blocks/card/__list-item/card__list-item.css);
+@import url(../blocks/card/__list/card__list.css);
+@import url(../blocks/card/__text/card__text.css);
+@import url(../blocks/card/__title/card__title.css);
+
+/* feedback */
+@import url(../blocks/feedback/__card/feedback__card.css);
+@import url(../blocks/feedback/__list/feedback__list.css);
+
+/* faq */
+@import url(../blocks/faq/faq.css);
+@import url(../blocks/faq/__content/faq__content.css);
+@import url(../blocks/faq/__item/faq__item.css);
+@import url(../blocks/faq/__label/faq__label.css);
+@import url(../blocks/faq/__list/faq__list.css);
+@import url(../blocks/faq/__title/faq__title.css);
+
+/* * {
+    outline: 1px red solid;
+} */
