@@ -4,7 +4,7 @@ ___
 Курс татуировки 
 
 **Russia.Mesto**
-* [Ссылка на проект](https://aleksandr-levitskyi.github.io/mesto/)
+* [Ссылка на проект](https://aleksandr-levitskyi.github.io/riot/)
 
 ## Технологии
 
